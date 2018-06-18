@@ -1,3 +1,55 @@
+html,
 body {
-   background: darkmagenta;
+    background: darkmagenta;
+    height: 100%;
+    font-family: Railway, sans-serif;
+}
+
+.displayflex {
+    display: grid;
+}
+
+#author {
+    text-align: right;
+}
+
+#quote {
+    font-size: 30px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+#generate {
+    justify-content: flex-end;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-family: Railway, sans-serif;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    background: darkmagenta;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+main {
+    margin: auto;
+}
+#quotebox {
+    background: white;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 600px;
+}
+
+#container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.line-break {
+    width: 100%;
 }
