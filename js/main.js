@@ -6,7 +6,7 @@ function updatePage(){
 
     const newQuote = getNewQuote();
     document.getElementById('quote').innerText = newQuote.quote;
-    document.getElementById('author').innerText = newQuote.author;
+    document.getElementById('authorName').innerText = newQuote.author;
 }
 
 
@@ -29,7 +29,7 @@ function changePrimaryColor(color) {
     document.getElementsByTagName('body')[0].style.backgroundColor = color;
     document.getElementById('quote').style.color = color;
     document.getElementById('author').style.color = color;
-    document.getElementById('generate').style.color = color;
+    document.getElementById('generate').style.backgroundColor = color;
 }
 
 
