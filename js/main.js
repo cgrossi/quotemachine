@@ -14,9 +14,12 @@ function getRandomColor() {
     // Return a random color from the array
 
     const colors = [
-        'red',
-        'blue',
-        'green'
+        '#a82525',
+        '#3771ce',
+        '#26a860',
+        '#bf9b1a',
+        '#bac60b',
+        '#7b0ba8'
     ];
 
     return colors[Math.floor(Math.random() * colors.length)];
